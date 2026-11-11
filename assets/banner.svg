@@ -1,20 +1,107 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900" height="180" viewBox="0 0 900 180">
+
   <defs>
-    <linearGradient id="cold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#263B70">
-        <animate attributeName="stop-color" values="#263B70;#3949AB;#553C9A;#315B91;#263B70" dur="8s" repeatCount="indefinite"/>
+    <linearGradient id="spray" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#301044">
+        <animate attributeName="stop-color"
+          values="#301044;#7000FF;#263B70;#00BFFF;#00F5D4;#301044"
+          dur="20s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#553C9A">
-        <animate attributeName="stop-color" values="#553C9A;#315B91;#263B70;#5145A8;#553C9A" dur="8s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#493080">
+        <animate attributeName="stop-color"
+          values="#493080;#263B70;#00BFFF;#00F5D4;#8F00FF;#301044;#493080"
+          dur="20s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00BFFF">
+        <animate attributeName="stop-color"
+          values="#00BFFF;#00F5D4;#301044;#8F00FF;#4B0082;#00BFFF"
+          dur="20s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-  </defs>
-  <rect width="900" height="180" rx="22" fill="#252A34"/>
-  <rect x="8" y="8" width="884" height="164" rx="18" fill="url(#cold)"/>
-  <text x="450" y="105" text-anchor="middle"
-        font-family="Trebuchet MS, Arial, sans-serif"
-        font-size="58" font-weight="bold"
-        letter-spacing="3" fill="#FFFFFF">Cuevitax0805</text>
-</svg>
 
+    <filter id="rough">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8"
+        numOctaves="2" seed="8" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise"
+        scale="2.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <filter id="paintGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- Concrete background -->
+  <rect width="900" height="180" fill="#17191F"/>
+
+  <!-- Rough wall texture -->
+  <g fill="#AAB0BD" opacity="0.12">
+    <circle cx="80" cy="35" r="1.5"/>
+    <circle cx="170" cy="145" r="2"/>
+    <circle cx="270" cy="25" r="1"/>
+    <circle cx="610" cy="145" r="2"/>
+    <circle cx="760" cy="35" r="1.5"/>
+    <circle cx="830" cy="125" r="2"/>
+    <circle cx="450" cy="155" r="1"/>
+    <circle cx="530" cy="30" r="1.5"/>
+  </g>
+
+  <!-- Spray paint stains -->
+  <path d="M40 120 Q110 70 190 110 T340 100"
+        fill="none" stroke="url(#spray)" stroke-width="15"
+        opacity="0.35" filter="url(#paintGlow)"/>
+
+  <path d="M570 50 Q690 100 850 55"
+        fill="none" stroke="url(#spray)" stroke-width="13"
+        opacity="0.35" filter="url(#paintGlow)"/>
+
+  <!-- Paint marks -->
+  <path d="M85 35 L130 22 L112 48 L150 39"
+        fill="none" stroke="#00F5D4" stroke-width="3"
+        opacity="0.7"/>
+
+  <path d="M770 140 L810 125 L795 151 L840 135"
+        fill="none" stroke="#8F00FF" stroke-width="4"
+        opacity="0.8"/>
+
+  <!-- Main graffiti lettering -->
+  <text x="450" y="109"
+        text-anchor="middle"
+        font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif"
+        font-size="72"
+        font-weight="900"
+        font-style="italic"
+        letter-spacing="-2"
+        fill="#FFFFFF"
+        stroke="#09090D"
+        stroke-width="8"
+        stroke-linejoin="bevel"
+        paint-order="stroke fill"
+        filter="url(#rough)"
+        transform="skewX(-7)">
+    CUEVITAX0805
+  </text>
+
+  <!-- Paint drips -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <path d="M270 115 L278 115 L276 137 Q273 145 270 137 Z"/>
+    <path d="M620 115 L627 115 L625 130 Q622 136 620 130 Z"/>
+  </g>
+
+  <!-- Undergound signature -->
+  <path d="M330 145 L570 137"
+        stroke="url(#spray)" stroke-width="4"
+        stroke-linecap="square"/>
+
+  <text x="450" y="163"
+        text-anchor="middle"
+        fill="#9297A5"
+        font-family="monospace"
+        font-size="10"
+        letter-spacing="5">
+    NO RULES // JUST CODE
+  </text>
+
+</svg>
