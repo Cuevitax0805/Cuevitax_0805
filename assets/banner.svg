@@ -1,1 +1,20 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+  <defs>
+    <linearGradient id="cold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#263B70">
+        <animate attributeName="stop-color" values="#263B70;#3949AB;#553C9A;#315B91;#263B70" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#553C9A">
+        <animate attributeName="stop-color" values="#553C9A;#315B91;#263B70;#5145A8;#553C9A" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="180" rx="22" fill="#252A34"/>
+  <rect x="8" y="8" width="884" height="164" rx="18" fill="url(#cold)"/>
+  <text x="450" y="105" text-anchor="middle"
+        font-family="Trebuchet MS, Arial, sans-serif"
+        font-size="58" font-weight="bold"
+        letter-spacing="3" fill="#FFFFFF">Cuevitax0805</text>
+</svg>
+
