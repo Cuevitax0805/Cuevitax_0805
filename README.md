@@ -6,17 +6,17 @@
 
 | Tecnología | Nivel |
 |---|---|
-| Java | Básico |
-| JavaScript | Básico |
-| PHP | Básico |
+| Java | Curso de variables y estructuras |
+| JavaScript | Curso de variables y estructuras |
+| PHP | Medio |
 
 ### Desarrollo web
 <img src="https://skillicons.dev/icons?i=html,css" alt="HTML y CSS" />
 
 | Tecnología | Nivel |
 |---|---|
-| HTML | Básico |
-| CSS | Básico |
+| HTML | Medio |
+| CSS | Medio |
 
 ### Bases de datos
 <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" />
