@@ -12,7 +12,7 @@
 
 <img src="https://img.shields.io/badge/JAVA-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=openjdk&logoColor=539BF5" />
 
-<img src="https://img.shields.io/badge/PYTHON-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=javascript&logoColor=539BF5" />
+<img src="https://img.shields.io/badge/PYTHON-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=python&logoColor=539BF5" />
 
 <img src="https://img.shields.io/badge/PHP-INTERMEDIO-343A46?style=for-the-badge&logo=php&logoColor=9B72CF" />
 
