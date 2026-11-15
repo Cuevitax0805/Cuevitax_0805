@@ -1,3 +1,4 @@
+```html
 <div align="center">
 
 <img src="./assets/banner.svg" width="100%" alt="Cuevitax0805"/>
@@ -14,13 +15,17 @@
 
 <img src="https://img.shields.io/badge/PYTHON-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=python&logoColor=539BF5" />
 
-<img src="https://img.shields.io/badge/PHP-INTERMEDIO-343A46?style=for-the-badge&logo=php&logoColor=9B72CF" />
+<a href="https://github.com/Cuevitax0805/PHP">
+  <img src="https://img.shields.io/badge/PHP-INTERMEDIO-343A46?style=for-the-badge&logo=php&logoColor=9B72CF" />
+</a>
 
 ---
 
 ### <span style="color:#9B72CF">🌐 DESARROLLO WEB</span>
 
-<img src="https://img.shields.io/badge/HTML-INTERMEDIO-343A46?style=for-the-badge&logo=html5&logoColor=539BF5" />
+<a href="https://github.com/Cuevitax0805/HTML">
+  <img src="https://img.shields.io/badge/HTML-INTERMEDIO-343A46?style=for-the-badge&logo=html5&logoColor=539BF5" />
+</a>
 
 <img src="https://img.shields.io/badge/CSS-INTERMEDIO-343A46?style=for-the-badge&logo=css3&logoColor=539BF5" />
 
@@ -49,3 +54,4 @@
 <sub> <span style="color:#8B949E">Aprendiendo · Practicando · Construyendo</span> </sub>
 
 </div>
+```
