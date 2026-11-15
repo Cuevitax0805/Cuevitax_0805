@@ -1,15 +1,14 @@
-```html
-<div align="center">
+ <div align="center">
 
 <img src="./assets/banner.svg" width="100%" alt="Cuevitax0805"/>
 
-# 💻 TECNOLOGÍAS Y CONOCIMIENTOS
+# <span style="color:#FFFFFF">💻 TECNOLOGÍAS Y CONOCIMIENTOS</span>
 
 <img src="https://skillicons.dev/icons?i=java,js,php,html,css,mongodb,mysql,git,github&theme=dark" />
 
 ---
 
-### ⌨️ LENGUAJES DE PROGRAMACIÓN
+### <span style="color:#9B72CF">⌨️ LENGUAJOS DE PROGRAMACIÓN</span>
 
 <img src="https://img.shields.io/badge/JAVA-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=openjdk&logoColor=539BF5" />
 
@@ -21,7 +20,7 @@
 
 ---
 
-### 🌐 DESARROLLO WEB
+### <span style="color:#9B72CF">🌐 DESARROLLO WEB</span>
 
 <a href="https://github.com/Cuevitax0805/HTML">
   <img src="https://img.shields.io/badge/HTML-INTERMEDIO-343A46?style=for-the-badge&logo=html5&logoColor=539BF5" />
@@ -31,7 +30,7 @@
 
 ---
 
-### 🗄️ BASES DE DATOS
+### <span style="color:#9B72CF">🗄️ BASES DE DATOS</span>
 
 <img src="https://img.shields.io/badge/MONGODB-INTERMEDIO-343A46?style=for-the-badge&logo=mongodb&logoColor=539BF5" />
 
@@ -39,7 +38,7 @@
 
 ---
 
-### ⚙️ HERRAMIENTAS
+### <span style="color:#9B72CF">⚙️ HERRAMIENTAS</span>
 
 <img src="https://img.shields.io/badge/PHPMYADMIN-INTERMEDIO-343A46?style=for-the-badge&logo=phpmyadmin&logoColor=539BF5" />
 
@@ -47,9 +46,10 @@
 
 ---
 
-<img src="https://img.shields.io/badge/LEARNING-ALWAYS-343A46?style=for-the-badge&labelColor=343A46&color=539BF5"/>
+<p>
+  <img src="https://img.shields.io/badge/LEARNING-ALWAYS-343A46?style=for-the-badge&labelColor=343A46&color=539BF5"/>
+</p>
 
-<sub>Aprendiendo · Practicando · Construyendo</sub>
+<sub> <span style="color:#8B949E">Aprendiendo · Practicando · Construyendo</span> </sub>
 
 </div>
-```
