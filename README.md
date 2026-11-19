@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
 
 <img src="./assets/banner.svg" width="100%" alt="Cuevitax0805"/>
 
@@ -12,7 +12,9 @@
 
 <img src="https://img.shields.io/badge/JAVA-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=openjdk&logoColor=539BF5" />
 
-<img src="https://img.shields.io/badge/PYTHON-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=python&logoColor=539BF5" />
+<a href="https://github.com/Cuevitax0805/Python">
+  <img src="https://img.shields.io/badge/PYTHON-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=python&logoColor=539BF5" />
+</a>
 
 <a href="https://github.com/Cuevitax0805/PHP">
   <img src="https://img.shields.io/badge/PHP-INTERMEDIO-343A46?style=for-the-badge&logo=php&logoColor=9B72CF" />
