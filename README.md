@@ -6,10 +6,6 @@
 
 <img src="https://skillicons.dev/icons?i=java,js,php,html,css,mongodb,mysql,git,github&theme=dark" />
 
-<a href="https://github.com/Cuevitax0805/Java">
-  <img src="https://img.shields.io/badge/JAVA-Curso:_Variables_y_Estructuras-343A46?style=for-the-badge&logo=openjdk&logoColor=539BF5" />
-</a>
-
 ---
 
 ### <span style="color:#9B72CF">⌨️ LENGUAJOS DE PROGRAMACIÓN</span>
