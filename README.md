@@ -31,7 +31,7 @@
 <a href="https://github.com/Cuevitax0805/CSS">
   <img src="https://img.shields.io/badge/CSS-Curso:_Hojas_de_Estilo_y_Estructuras-343A46?style=for-the-badge&logo=css3&logoColor=539BF5" />
 </a>
----
+
 
 ### <span style="color:#9B72CF">🗄️ BASES DE DATOS</span>
 
