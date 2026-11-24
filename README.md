@@ -22,8 +22,6 @@
   <img src="https://img.shields.io/badge/PHP-INTERMEDIO-343A46?style=for-the-badge&logo=php&logoColor=9B72CF" />
 </a>
 
----
-
 ### <span style="color:#9B72CF">🌐 DESARROLLO WEB</span>
 
 <a href="https://github.com/Cuevitax0805/HTML">
